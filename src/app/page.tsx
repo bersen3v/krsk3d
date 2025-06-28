@@ -11,7 +11,7 @@ export default function Home() {
           fov: 45,
           near: 0.1,
           far: 20000, // Увеличиваем дальность прорисовки
-          position: [0, 0, 10], // Позиция камеры (x, y, z)
+          position: [3000, 3000, 3000], // Позиция камеры (x, y, z)
         }}
       >
         <ambientLight intensity={0.5} />
